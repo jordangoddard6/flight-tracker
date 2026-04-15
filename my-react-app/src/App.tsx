@@ -4,7 +4,7 @@ import FlightDetails from "./pages/FlightDetails";
 import SavedFlights from "./pages/SavedFlights";
 import Pickups from "./pages/Pickups";
 import DistanceTracker from "./pages/DistanceTracker";
-import FlightTrackNavBar from "./components/NavBar";
+import FlightTrackNavBar from "./components/NavBar/NavBar";
 
 function App() {
   return (
