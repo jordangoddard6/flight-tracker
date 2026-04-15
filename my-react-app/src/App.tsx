@@ -4,10 +4,12 @@ import FlightDetails from "./pages/FlightDetails";
 import SavedFlights from "./pages/SavedFlights";
 import Pickups from "./pages/Pickups";
 import DistanceTracker from "./pages/DistanceTracker";
+import FlightTrackNavBar from "./components/NavBar";
 
 function App() {
   return (
     <>
+      <FlightTrackNavBar />
       <Routes>
         <Route path="/" element={<FlightSearch />} />
         <Route path="/flight/:id" element={<FlightDetails />} />
