@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import FlightSearch from "./pages/FlightSearch";
+import FlightSearch from "./pages/FlightSearch/FlightSearch";
 import FlightDetails from "./pages/FlightDetails";
 import SavedFlights from "./pages/SavedFlights";
 import Pickups from "./pages/Pickups";

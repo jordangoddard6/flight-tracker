@@ -1,0 +1,57 @@
+.search-card {
+  background-color: #f4f3ed; /* Light beige from sketch */
+  border-radius: 12px;
+  padding: 24px;
+  max-width: 400px;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  font-family: sans-serif;
+}
+
+.search-title {
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.input-group {
+  margin-bottom: 16px;
+}
+
+/* Base style for all inputs */
+.search-input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 14px;
+  outline: none;
+}
+
+/* Style applied ONLY when the input has an error */
+.search-input.error {
+  border: 1px solid #d93025;
+}
+
+.error-text {
+  color: #d93025; /* Standard alert red */
+  font-size: 12px;
+  margin-top: 4px;
+  display: block;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 14px;
+  background-color: #e6f2ff; /* Light blue primary action */
+  color: #000;
+  border: 1px solid #3a7bd5; /* Blue border */
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 8px;
+}
